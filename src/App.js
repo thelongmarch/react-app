@@ -31,7 +31,7 @@ class App extends Component {
                 </div>
                 <div className='row'>
                     <div className='col-xs-1'>
-                        <Home  name={"name1"} age={12} user={user}>
+                        <Home  name={"name1"} initAge={12} user={user}>
                             <p>i am child</p>
                         </Home>
                     </div>

@@ -1,7 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+/*无状态组件
+1.无需state，即不处理用户的输入，组件的所有的数据都是依赖props传入的
+2.不需要用到生命周期
 
-export default class Header extends Component {
-  render() {
+*/
+const Header =(props)=> {
+ 
     return (
         <div className='container'>
             <div className='row'>
@@ -11,7 +15,8 @@ export default class Header extends Component {
             </div>
         </div>
     );
-  }
-}
+  };
+
+export default Header;
 
 
