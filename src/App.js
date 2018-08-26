@@ -33,6 +33,7 @@ class App extends Component {
                     <div className='col-xs-1'>
                         <Home  name={"name1"} initAge={12} user={user}>
                             <p>i am child</p>
+                            <span>测试推送</span>
                         </Home>
                     </div>
                 </div>
